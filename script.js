@@ -17,13 +17,13 @@ if (shapeType == "2D") {
     var shapeY = prompt("Whats the width of the shape?");
     var fixType = prompt("Do you want to find volume (V) or perimeter (P)?");
 }
-if (shapeType == "2D") {
+if (shapeType == "2D" || shapeType == "2d") {
     if (fixType == "A") {
         var answer = shapeX * shapeY
     } else if (fixType == "P") {
         var answer = shapeX * 2 + shapeY * 2
     }
-} else if (shapeType == "3D") {
+} else if (shapeType == "3D" || shapeType == "3d") {
     if (fixType == "V") {
         var answer = shapeX * shapeY * shapeZ
     } else if (fixType == "P") {
